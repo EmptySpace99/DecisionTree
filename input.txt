@@ -1,0 +1,7 @@
+Age_1
+Age_1 Risk_1 <=23 Type_1 >23
+Risk_1 END_1 =A
+Type_1 Risk_2 =Sports Risk_3 =Truck Risk_4 =Family
+Risk_2 END_2 =A
+Risk_3 END_3 =B
+Risk_4 END_4 =B
