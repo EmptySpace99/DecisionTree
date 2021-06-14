@@ -1,8 +1,10 @@
 # DecisionTree
 
+### What is?
 A decision tree is a predictive model useful for different purposes and often used as a tool for decision support.
 
-I have implemented a C++ program that is able to:
+### Implementation
+My implementation is able to:
 1) read a decision tree from file and modify it with le
 operations delete node, add node, edit node;
 2) visualize the decision tree in text mode;
@@ -18,3 +20,13 @@ to prediction;
 previously entered decision and from a set of
 variable values. The program must ask for a
 set of pairs (variable, value)
+
+
+## Decision Tree Structure
+![StructureDiagram](https://user-images.githubusercontent.com/62540354/121874146-618c9380-cd07-11eb-8085-cbaa186d9662.png)
+
+
+## Decision Tree Prediction Example
+If we have a 49-year-old customer with a family car, the insurance manager could infer that the customer has a low risk of an accident:
+
+![PredictionExample](https://user-images.githubusercontent.com/62540354/121874285-85e87000-cd07-11eb-909b-82a836cc29f4.png)
