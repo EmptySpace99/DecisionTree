@@ -61,3 +61,12 @@ The format of the input file :
 root node1 cond1 node2 cond2 node3 cond3 <br/>
 node1 node4 cond4 node5 cond5 node6 cond6 ....... <br/>
 node2 node7 cond7 node8 cond8 node9 cond9 ....... <br/>*
+
+### In my input.txt there is the following example:
+*Age_1 <br/>
+Age_1 Risk_1 <=23 Type_1 >23 <br/>
+Risk_1 END_1 =A <br/>
+Type_1 Risk_2 =Sports Risk_3 =Truck Risk_4 =Family <br/>
+Risk_2 END_2 =A <br/>
+Risk_3 END_3 =B <br/>
+Risk_4 END_4 =B*
