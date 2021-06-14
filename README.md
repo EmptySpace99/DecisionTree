@@ -30,3 +30,14 @@ set of pairs (variable, value)
 If we have a 49-year-old customer with a family car, the insurance manager could infer that the customer has a low risk of an accident:
 
 ![PredictionExample](https://user-images.githubusercontent.com/62540354/121874285-85e87000-cd07-11eb-909b-82a836cc29f4.png)
+## Special cases
+There may be cases where there is more than one true condition on the edges:
+1) for example if we have two conditions a = 5 and a> 4 on the two arcs and the value of 'a' is equal to '5' 
+
+or cases in which no condition is true:
+
+2) for example when we have the conditions a = 5 and a> 5 on the only two edges and the value of 'a' is '4'
+
+In the first case the program will have to randomly choose one of the arcs that have the true condition.
+
+In the second case the program will have to print: "the prediction cannot take place because doesn't exist a node for which there is no viable arc".
